@@ -1,0 +1,47 @@
+﻿/* ----------------------------------------------------------------------------
+  Buttons.css
+  Copyright (c) 2012, Lucas M. Suggs
+
+  This is the CSS for styling the calculator buttons.
+---------------------------------------------------------------------------- */
+
+.buttonrow
+{
+    width: 240px;
+}
+
+.numberbutton, .zerobutton
+{
+    float: left;
+    width: 40px;
+    height: 30px;
+    margin: 4px 4px 4px 4px;
+    font-size: 1.35em;
+}
+
+.zerobutton
+{
+    width: 88px;
+}
+
+.memorybutton
+{
+    float: left;
+    width: 40px;
+    height: 30px;
+    margin: 4px 4px 4px 4px;
+}
+
+.actionbutton, .equalsbutton
+{
+    float: left;
+    width: 40px;
+    height: 30px;
+    margin: 4px 4px 4px 4px;
+}
+
+.equalsbutton
+{
+    height: 68px;
+    float: right;
+}
